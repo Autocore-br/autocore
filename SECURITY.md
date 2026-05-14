@@ -59,3 +59,13 @@ Pedimos apenas:
 - não explorar dados de usuários
 - não causar indisponibilidade
 - não divulgar vulnerabilidades antes da correção
+
+## Security Practices
+
+O projeto utiliza:
+
+- criptografia para dados sensíveis
+- hashes seguros para senhas
+- controle de permissões por roles
+- proteção de branches
+- revisão obrigatória via Pull Request
