@@ -1,0 +1,47 @@
+name: Bug Report
+description: Reporte um problema ou comportamento inesperado
+title: "[BUG] "
+labels: ["bugfix"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrição
+      description: Explique o problema
+      placeholder: O sistema deveria...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passos para reproduzir
+      placeholder: |
+        1. Vá para...
+        2. Clique em...
+        3. O erro acontece...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamento esperado
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs ou prints
+      render: shell
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Ambiente
+      options:
+        - Development
+        - Production
+        - Docker
+        - WSL
