@@ -5,3 +5,4 @@ Sempre crie uma branch:
 feature/*
 fix/*
 hotfix/*
+bugfix/*
