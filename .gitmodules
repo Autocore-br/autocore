@@ -1,0 +1,6 @@
+[submodule "autocore-landing-page"]
+	path = autocore-landing-page
+	url = git@github.com:Autocore-br/autocore-landing-page
+[submodule "frontend/autocore-landing-page"]
+	path = frontend/autocore-landing-page
+	url = git@github.com:Autocore-br/autocore-landing-page
